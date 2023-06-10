@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+}
+
+header {
+  background-color: red;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+}
+
+nav ul li {
+  margin-right: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+form {
+  align-items: left;
+}
+
+.hero {
+  background-image: url("collage.jpg"); /* Replace with your own image */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+  color: #fff;
+}
+
+.hero-content h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.about,
+.admissions {
+  padding: 40px;
+  background-color: #f8f8f8;
+}
+
+.about h2,
+.admissions h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+}
+/* Rest of the code remains the same */
+
+#search-form {
+  margin-left: auto;
+  display: flex;
+  align-items: left;
+}
+
+#search-input {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 5px;
+}
+
+#search-form button {
+  padding: 6px 10px;
+  background-color: #f44336;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#moreinfo {
+  display: flex;
+  justify-content: center;
+  background-color: #f44336;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999;
+}
+.main-content {
+  padding-bottom: 80px; /* Add margin-bottom value equal to the footer height */
+}
+
+/* Rest of the code remains the same */
+
+.footer-wrapper {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s, opacity 0.5s;
+}
+
+.footer-wrapper.hidden {
+  visibility: hidden;
+  opacity: 0;
+}
